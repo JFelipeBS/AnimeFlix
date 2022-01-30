@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .conteiner {
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(/assents/img/capa.jpg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo {
+    margin-top: 130px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+header nav {
+    margin: 20px;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 25px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header a:hover {
+    color: rgb(255, 0, 0);
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* estilo do carrosel */
+
+.subtitulo-filmes {
+    margin: 0px 10px 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.subtitulo {
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.item img:hover{
+    background-color: rgba(0, 0, 0, .50);
+}
+
+.item:hover {
+    cursor: pointer;
+	transform: scale(1.1);
+}

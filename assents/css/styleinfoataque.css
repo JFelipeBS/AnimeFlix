@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.logo {
+
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.logo:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(/assents/img/capaataquedetita.jpg);
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+
+header nav {
+    margin: 20px;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 25px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header a:hover {
+    color: rgb(255, 0, 0);
+
+}
+
+/* informaçoes do anime */
+
+.anime{
+    margin-top: 100px ;
+    display: flex;
+    align-items: center;
+    
+}
+.anime img{
+    width: 200px;
+    margin-left: 25px;
+}
+.descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    width: 50%;
+    text-align: justify;
+}
+.sinopse{
+    margin-top: 15px;
+    
+}
+
+/* epsodios do anime*/
+
+.temporada{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+.temporada h2{
+    margin: 0px 10px 20px ;
+}
+
+.epsodios{
+    display: flex;
+}
+
+.epsodios .ep{
+    margin: 10px;
+    
+}
+
+.epsodios img{
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    
+}
+.epsodios img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.epsodios .ep h2{
+    margin: 0;
+}

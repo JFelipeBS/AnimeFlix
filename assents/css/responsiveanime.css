@@ -1,0 +1,30 @@
+@media screen and (max-width:500px) {
+
+    header .conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .anime {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .temporada {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .epsodios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+    }
+
+}
